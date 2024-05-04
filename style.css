@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('https://images.indianexpress.com/2021/06/IIT-Hyderabad-1.jpg') no-repeat center;
+    background-size: cover;
+    /* color: black; */
+}
+#img1{
+    position: relative;
+    top: -34px;
+    right: -300px;
+    color: white;
+}
+#img2{
+    position: relative;
+    top: -34px;
+    right: -300px;
+    color: white;
+}
+.wrapper{
+    width: 420px;
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    font-size: 38px;
+    text-align: center;
+}
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: whitesmoke;
+    /* color: black; */
+}
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input{
+    accent-color: white;
+    margin-right: 4px;
+}
+.remember-forgot a{
+    color: white;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 40px;
+    height: 46px;
+}
+.wrapper .register-link{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 24px;
+}
+.register-link p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
